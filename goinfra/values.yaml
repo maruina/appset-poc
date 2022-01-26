@@ -1,2 +1,6 @@
 go-infrabin:
   replicaCount: 1
+  image:
+    repository: ghcr.io/maruina/go-infrabin
+    pullPolicy: IfNotPresent
+    tag: v3.1.1
